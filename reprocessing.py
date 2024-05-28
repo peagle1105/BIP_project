@@ -8,5 +8,6 @@ meningioma_prefix = "Tr-me_"; notumor_prefix = "Tr-no_"
 exten = ".jpg"
 
 #Supporting function
-def pepernoiseRemove()
+def pepernoiseRemove():
+  concho=
 #Main function
