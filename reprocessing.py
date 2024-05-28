@@ -8,6 +8,13 @@ meningioma_prefix = "Tr-me_"; notumor_prefix = "Tr-no_"
 exten = ".jpg"
 
 #Supporting function
-def pepernoiseRemove():
-  concho=
+def pepernoiseRemove(image_path, contrast_factor):
+    # Load the image
+    image = cv2.imread(image_path)
+    alpha = contrast_factor
+    beta = 0
+    # Apply the contrast adjustment
+    adjusted_image = cv2.convertScaleAbs(image, alpha=alpha, beta=beta)
+# Example usage
+increase_contrast('jpg', 1.5)
 #Main function
