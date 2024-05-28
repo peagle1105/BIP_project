@@ -16,5 +16,5 @@ def pepernoiseRemove(image_path, contrast_factor):
     # Apply the contrast adjustment
     adjusted_image = cv2.convertScaleAbs(image, alpha=alpha, beta=beta)
 # Example usage
-increase_contrast('jpg', 1.5)
+pepernoiseRemove('jpg', 1.5)
 #Main function
